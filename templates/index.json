@@ -55,6 +55,34 @@
         "show_vendor": false
       }
     },
+    "162885802692318a35": {
+      "type": "image-banner",
+      "blocks": {
+        "162885802692318a35-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your order delivered weekly"
+          }
+        },
+        "162885802692318a35-1": {
+          "type": "text",
+          "settings": {
+            "text": "Our subscription service means you don’t need to remember to order your bread each week. It will come to you as if by magic."
+          }
+        }
+      },
+      "block_order": [
+        "162885802692318a35-0",
+        "162885802692318a35-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sean_s_loaf_baguette.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -94,6 +122,7 @@
   "order": [
     "image_banner",
     "featured_products",
+    "162885802692318a35",
     "image_text"
   ]
 }
