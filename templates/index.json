@@ -73,8 +73,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View our delicious products",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
