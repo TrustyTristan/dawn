@@ -117,12 +117,86 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16288580465af55907": {
+      "type": "multicolumn",
+      "blocks": {
+        "16288580465af55907-0": {
+          "type": "column",
+          "settings": {
+            "title": "Michael C",
+            "text": "<p>“Sean’s Loaf delivers better bread and croissants than any other baker in North London. Every week we get our delivery, and we’ve always eaten the croissants and all five loaves before the next one comes. We’d order more, but we’d eat those too!”<\/p>"
+          }
+        },
+        "16288580465af55907-1": {
+          "type": "column",
+          "settings": {
+            "title": "Sara Cox",
+            "text": "<p>“Wednesday’s are officially my favourite day of the week thanks to Sean’s Loaf.<br\/>His bread is the best - chewy sourdough, buttery croissants & chocolate twists - all make my mid-week that much sweeter.<\/p><p>What started as a lockdown treat soon became a subscription - I can’t recommend Sean’s loaf enough.\"<\/p>"
+          }
+        },
+        "16288580465af55907-2": {
+          "type": "column",
+          "settings": {
+            "title": "Fake Name",
+            "text": "<p>\"I love that by getting my bread from Sean’s Loaf I’m supporting a fantastic local independent business, as a cyclist myself I also love that he rocks up on his bike with my delivery but mainly I love devouring a half baguette with salted butter the minute it’s dropped off.\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16288580465af55907-0",
+        "16288580465af55907-1",
+        "16288580465af55907-2"
+      ],
+      "settings": {
+        "title": "What People Are Saying",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "162885839378bd6d0e": {
+      "type": "newsletter",
+      "blocks": {
+        "162885839378bd6d0e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "162885839378bd6d0e-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "162885839378bd6d0e-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "162885839378bd6d0e-0",
+        "162885839378bd6d0e-1",
+        "162885839378bd6d0e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "162885802692318a35",
-    "image_text"
+    "image_text",
+    "16288580465af55907",
+    "162885839378bd6d0e"
   ]
 }
