@@ -61,13 +61,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Hello, I’m Sean the baker"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>I  have been a chef for over 20 years and have worked across the world in 3* Michelin restaurants, luxury resorts in far flung places and market stalls in London!<br\/><br\/>So, I have done most things that can be done in a kitchen. <br\/><br\/>Bread always factored in my menus, whether it was baking loaves for the bread trolley, making staff sandwiches or baking croissant fresh for breakfast, my love for flour knows no bounds!!<br\/><br\/>This all brings me to becoming Sean the baker and starting Sean's Loaf. <br\/><br\/>I bought a Rofco baking oven, which enables me to bake more than one loaf at a time, so that I could bring fresh baked bread and pastries to the good people of North London.<br\/><br\/>I can deliver to your house (with prior notice) an array of baked goods!<br\/><br\/><em>Sean Chambers<\/em><\/p>"
           }
         },
         "button": {
@@ -84,6 +84,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/sean.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
