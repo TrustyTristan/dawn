@@ -43,8 +43,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "collection": "",
+        "title": "New Products",
+        "collection": "new-products",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -67,7 +67,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>I  have been a chef for over 20 years and have worked across the world in 3* Michelin restaurants, luxury resorts in far flung places and market stalls in London!<br\/><br\/>So, I have done most things that can be done in a kitchen. <br\/><br\/>Bread always factored in my menus, whether it was baking loaves for the bread trolley, making staff sandwiches or baking croissant fresh for breakfast, my love for flour knows no bounds!!<br\/><br\/>This all brings me to becoming Sean the baker and starting Sean's Loaf. <br\/><br\/>I bought a Rofco baking oven, which enables me to bake more than one loaf at a time, so that I could bring fresh baked bread and pastries to the good people of North London.<br\/><br\/>I can deliver to your house (with prior notice) an array of baked goods!<br\/><br\/><em>Sean Chambers<\/em><\/p>"
+            "text": "<p>I  have been a chef for over 20 years and have worked across the world in 3 star Michelin restaurants, luxury resorts in far flung places and market stalls in London!<br\/><br\/>So, I have done most things that can be done in a kitchen. <br\/><br\/>Bread always factored in my menus, whether it was baking loaves for the bread trolley, making staff sandwiches or baking croissant fresh for breakfast, my love for flour knows no bounds!!<br\/><br\/>This all brings me to becoming Sean the baker and starting Sean's Loaf. <br\/><br\/>I bought a Rofco baking oven, which enables me to bake more than one loaf at a time, so that I could bring fresh baked bread and pastries to the good people of North London.<br\/><br\/>I can deliver to your house (with prior notice) an array of baked goods!<br\/><br\/><em>Sean Chambers<\/em><\/p>"
           }
         },
         "button": {
