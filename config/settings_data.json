@@ -39,10 +39,34 @@
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "fa41be78-6291-4045-a319-8a63be67a7c4": {
+            "type": "text",
+            "settings": {
+              "heading": "Location",
+              "subtext": "<p>Sean’s Loaf, 6 Midland Terrace<br\/>Cricklewood, NW2 6QH<\/p>"
+            }
+          },
+          "e355fe82-2919-402d-9b62-c180fc4e3db5": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "<p>Sean Chambers AKA Sean the baker<br\/><a href=\"mailto:seansloaf@gmail.com\" target=\"_blank\">seansloaf@gmail.com<\/a><br\/>07874 008334<\/p>"
+            }
+          },
+          "a4aac8e2-9abf-4845-98fd-7c6aacf31af0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Policies",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "fa41be78-6291-4045-a319-8a63be67a7c4",
+          "e355fe82-2919-402d-9b62-c180fc4e3db5",
+          "a4aac8e2-9abf-4845-98fd-7c6aacf31af0"
         ],
         "settings": {
           "color_scheme": "background-1",
