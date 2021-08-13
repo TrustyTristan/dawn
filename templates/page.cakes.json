@@ -4,9 +4,68 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "162886447909b921d1": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TRZ_6097.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "16288648564eb19e5c": {
+      "type": "collage",
+      "blocks": {
+        "16288648564eb19e5c-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "16288648564eb19e5c-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "16288648564eb19e5c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16288648564eb19e5c-0",
+        "16288648564eb19e5c-1",
+        "16288648564eb19e5c-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16288657362396de5c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "162886447909b921d1",
+    "16288648564eb19e5c",
+    "16288657362396de5c"
   ]
 }

@@ -4,46 +4,9 @@
       "type": "main-page",
       "settings": {
       }
-    },
-    "16288628167de355ba": {
-      "type": "collection-list",
-      "blocks": {
-        "16288628167de355ba-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bread"
-          }
-        },
-        "16288628167de355ba-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pastry"
-          }
-        },
-        "16288628167de355ba-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "condiments"
-          }
-        }
-      },
-      "block_order": [
-        "16288628167de355ba-0",
-        "16288628167de355ba-1",
-        "16288628167de355ba-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
-    "main",
-    "16288628167de355ba"
+    "main"
   ]
 }
