@@ -73,7 +73,7 @@
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our Newsletter",
           "show_social": false,
-          "enable_country_selector": true,
+          "enable_country_selector": false,
           "enable_language_selector": true,
           "payment_enable": true
         }
