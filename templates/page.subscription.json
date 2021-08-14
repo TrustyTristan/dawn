@@ -1,10 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-      }
-    },
     "1628938002779b486b": {
       "type": "image-banner",
       "settings": {
@@ -14,10 +9,15 @@
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "1628938002779b486b"
+    "1628938002779b486b",
+    "main"
   ]
 }
