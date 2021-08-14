@@ -14,10 +14,46 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "16289385196c41fc91": {
+      "type": "multicolumn",
+      "blocks": {
+        "16289385196c41fc91-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wednesday.jpg",
+            "title": "Wednesday Delivery",
+            "text": "<p>Get all of your goodies delivered fresh on Wednesday.<\/p>"
+          }
+        },
+        "16289385196c41fc91-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/saturday.jpg",
+            "title": "Saturday Delivery",
+            "text": "<p>Get all of your goodies delivered fresh on Saturday.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16289385196c41fc91-0",
+        "16289385196c41fc91-1"
+      ],
+      "settings": {
+        "title": "Delivery Plans",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "1628938002779b486b",
-    "main"
+    "main",
+    "16289385196c41fc91"
   ]
 }
