@@ -42,18 +42,11 @@
         "show_image_outline": true,
         "show_vendor": false
       }
-    },
-    "16289300144fcc4ae1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{delivery-date}}"
-      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-products",
-    "16289300144fcc4ae1"
+    "featured-products"
   ]
 }
