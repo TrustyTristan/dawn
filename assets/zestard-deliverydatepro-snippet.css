@@ -1,0 +1,83 @@
+#selected_format {
+    display: block;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+}
+
+#admin_notes {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+}
+
+#datepicker_box {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+}
+
+#datepicker_box .date-box {
+    display: inline-block;
+    margin: 0px;
+    text-align: left;
+}
+
+div.custom_delivery>label>input {
+    visibility: hidden;
+    width: auto;
+}
+
+div.custom_delivery {
+    float: left;
+    width: 100%;
+}
+
+div.custom_delivery>label {
+    display: block;
+    border: 2px solid grey;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+    float: left;
+    padding: 0 5px;
+}
+
+div.custom_delivery>label>span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+div.custom_delivery>label>input+i {
+    visibility: hidden;
+    color: #2E4E40;
+    margin-left: -0.5em;
+    margin-right: 0.2em;
+}
+
+div.custom_delivery>label>input:checked+i {
+    visibility: visible;
+}
+
+.truck-icon {
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+.fa-2x {
+    font-size: 18px !important;
+    padding-top: 5px;
+}
+
+.main-box {
+    float: left;
+    width: 100%;
+    border: 1px solid rgba(61, 66, 70, 0.85);
+    margin: 10px 0;
+    padding: 15px;
+}
