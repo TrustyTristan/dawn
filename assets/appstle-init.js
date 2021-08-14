@@ -111,7 +111,7 @@
             "appstle_selected_background": {
                 "background": "transparent",
             },
-            "customCSS": "",
+            "customCSS": "#appstle_subscription_widget0{\nmax-width:500px\n}",
             "customerPortalCss": "",
             "priceSelector": "span.price-item.price-item--regular",
             "badgeTop": "",
