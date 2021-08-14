@@ -46,7 +46,7 @@
     "16289300144fcc4ae1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "include 'delivery-date'"
+        "custom_liquid": "{{delivery-date}}"
       }
     }
   },
