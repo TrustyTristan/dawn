@@ -22,7 +22,7 @@
         "selectors": {
             "payment_button_selectors": "form[action$='/cart/add'] .shopify-payment-button",
             "subscriptionLinkSelector": "div.grid.myaccount",
-            "atcButtonPlacement": "AFTER",
+            "atcButtonPlacement": "BEFORE",
             "subscriptionLinkPlacement": "BEFORE",
         },
         "useUrlWithCustomerId": false,
