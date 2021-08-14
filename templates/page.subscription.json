@@ -44,9 +44,9 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "background_style": "none",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/all",
         "swipe_on_mobile": false
       }
     }
