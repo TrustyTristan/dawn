@@ -33,7 +33,7 @@
         "deliveryText": "delivery",
         "purchaseOptionsText": "Purchase Options",
         "manageSubscriptionButtonText": "Manage Subscription",
-        "subscriptionOptionText": "Subscribe",
+        "subscriptionOptionText": "Subscription",
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "<b>Subscribe and Save<\/b> <span class='appstle_subscribesavetext'>{{{subscriptionPrice}}}<\/span>",
         "tooltipTitle": "Details",
