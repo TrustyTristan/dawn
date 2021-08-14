@@ -4,9 +4,16 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "16289477181e425108": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Send us a message"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16289477181e425108"
   ]
 }
