@@ -43,10 +43,10 @@
         "show_vendor": false
       }
     },
-    "162892831799249509": {
-      "type": "apps",
+    "16289300144fcc4ae1": {
+      "type": "custom-liquid",
       "settings": {
-        "include_margins": true
+        "custom_liquid": "{ include 'delivery-date' }}"
       }
     }
   },
@@ -54,6 +54,6 @@
     "cart-items",
     "cart-footer",
     "featured-products",
-    "162892831799249509"
+    "16289300144fcc4ae1"
   ]
 }
