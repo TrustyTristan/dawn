@@ -47,6 +47,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -75,7 +76,7 @@
     "162899143420604906": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"product\">{{ product.description }}<\/div>"
+        "custom_liquid": "<section class=\"page-width\">{{ product.description }}<\/section>"
       }
     },
     "product-recommendations": {
