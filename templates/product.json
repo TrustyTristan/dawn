@@ -75,7 +75,7 @@
     "162899143420604906": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{ product.description }}"
+        "custom_liquid": "<div class=\"product\">{{ product.description }}<\/div>"
       }
     },
     "product-recommendations": {
