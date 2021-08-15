@@ -72,6 +72,12 @@
         "enable_video_looping": false
       }
     },
+    "162899143420604906": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ product.description }}"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -86,6 +92,7 @@
   },
   "order": [
     "main",
+    "162899143420604906",
     "product-recommendations"
   ]
 }
