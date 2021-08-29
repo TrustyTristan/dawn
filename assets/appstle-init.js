@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1628861215");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1630231359");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -51,6 +51,7 @@
         "widgetEnabled": true,
         "showTooltip" : true,
         "sortByDefaultSequence": false,
+        "showSubOptionBeforeOneTime": false,
         "showStaticTooltip": true,
         "sellingPlanTitleText" : "{{sellingPlanName}}",
         "oneTimePriceText" : "{{price}}",
@@ -59,6 +60,7 @@
         "selectedDiscountFormat" : "SAVE {{selectedDiscountPercentage}}",
         "manageSubscriptionBtnFormat" : "<a href='apps\/subscriptions' class='appstle_manageSubBtn' ><button class='btn' style='padding: 2px 20px'>Manage Subscription<\/button><a><br><br>",
         "manageSubscriptionUrl" : "apps\/subscriptions",
+        "appstlePlanId": 5,
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
