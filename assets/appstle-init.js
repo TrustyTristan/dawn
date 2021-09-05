@@ -82,14 +82,14 @@
             },
 
             "appstle_select": {
-                "padding-top": "",
-                "padding-bottom": "",
-                "padding-left": "",
+                "padding-top": "10px",
+                "padding-bottom": "10px",
+                "padding-left": "5px",
                 "padding-right": "",
                 "border-width": "",
                 "border-style": "",
                 "border-color": "",
-                "border-radius": "",
+                "border-radius": "5",
             },
 
             "tooltip_subscription_svg": {
