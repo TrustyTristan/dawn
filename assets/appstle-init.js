@@ -61,6 +61,7 @@
         "manageSubscriptionBtnFormat" : "<a href='apps\/subscriptions' class='appstle_manageSubBtn' ><button class='btn' style='padding: 2px 20px'>Manage Subscription<\/button><a><br><br>",
         "manageSubscriptionUrl" : "apps\/subscriptions",
         "appstlePlanId": 5,
+        "showCheckoutSubscriptionBtn": "true",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
@@ -113,7 +114,7 @@
             "appstle_selected_background": {
                 "background": "transparent",
             },
-            "customCSS": "#appstle_subscription_widget0{\n\tmax-width:500px\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > label {\n\tmargin-right: auto;\n\tmargin-bottom: 17px;\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > span {\n    margin-top: 3em;\n    margin-left: 28px;\n    position: absolute;\n}\n.buunto-date-picker.buunto-product-page {\n    margin-bottom: 0px !important;\n}",
+            "customCSS": "#appstle_subscription_widget0{\n\tmax-width:500px\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > label {\n\tmargin-right: auto;\n\tmargin-bottom: 17px;\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > span {\n    margin-top: 3em;\n    margin-left: 28px;\n    position: absolute;\n}\n.buunto-date-picker {\n    min-width: 210px;\n.buunto-date-picker.buunto-product-page {\n    margin-bottom: 0px !important;\n}",
             "customerPortalCss": "",
             "priceSelector": "span.price-item.price-item--regular",
             "badgeTop": "",
