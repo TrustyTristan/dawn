@@ -8,6 +8,7 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/seansloaf",
     "favicon": "shopify:\/\/shop_images\/favicon-04.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/seansloaf_black_linear.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
