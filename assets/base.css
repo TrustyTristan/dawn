@@ -523,7 +523,7 @@ h6:empty {
 }
 
 .link--text {
-  color: rgba(var(--color-foreground), 1);
+  color: rgb(var(--color-foreground));
 }
 
 .link--text:hover {
@@ -2003,7 +2003,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
 }
 
 .header__menu-item:hover {
