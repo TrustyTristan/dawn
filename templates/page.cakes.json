@@ -15,6 +15,12 @@
       "settings": {
       }
     },
+    "16315746120d49cd8d": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Tell us about your special cake"
+      }
+    },
     "1628947288b736e158": {
       "type": "collage",
       "blocks": {
@@ -58,6 +64,7 @@
   "order": [
     "162886447909b921d1",
     "main",
+    "16315746120d49cd8d",
     "1628947288b736e158"
   ]
 }
