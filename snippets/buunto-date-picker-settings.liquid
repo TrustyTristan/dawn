@@ -1,0 +1,116 @@
+{% comment %}
+
+DO NOT MODIFY THIS TEMPLATE. This file is managed automatically by Buunto Date Picker. Any modification will be erased eventually.
+
+{% endcomment %}
+
+<script type="text/javascript">
+
+window.Buunto = window.Buunto || {};
+
+window.Buunto.datePicker = window.Buunto.datePicker || {};
+
+window.Buunto.datePicker.settings = {
+  "locale": "en-gb",
+  "styles": {
+    "arrowIconColor": "#000000",
+    "errorFontColor": "#8b0000",
+    "headerFontColor": "#333333",
+    "errorBorderColor": "#bc6363",
+    "calendarBoxShadow": "0 0 5px rgba(0,0,0,0.15)",
+    "dropdownTextColor": "#333333",
+    "dropdownBorderColor": "#cccccc",
+    "dropdownBorderWidth": "1px",
+    "headerDaysFontColor": "#333333",
+    "calendarBorderRadius": "10px",
+    "dayHoveringFontColor": "#333333",
+    "daySelectedFontColor": "#ffffff",
+    "headerDaysFontWeight": "bold",
+    "dayAvailableFontColor": "#333333",
+    "previewBackgroundColor": "#ffffff",
+    "calendarBackgroundColor": "#ffffff",
+    "dayUnavailableFontColor": "#aaaaaa",
+    "dropdownBackgroundColor": "#ffffff",
+    "dayHoveringBackgroundColor": "#eeeeee",
+    "daySelectedBackgroundColor": "#fd7412"
+  },
+  "messages": {
+    "soldOut": "sold out",
+    "dateTagLabel": "Delivery Date",
+    "timeSlotLabel": "Pick a delivery time:",
+    "datePickerLabel": "Pick a delivery date:",
+    "dayOfWeekTagLabel": "Delivery Day",
+    "datePickerInfoText": "",
+    "noDateSelectedError": "Please select a delivery date before adding to the cart.",
+    "noAvailableDatesError": "There are currently no dates available for this product.",
+    "noTimeSlotSelectedError": "Please select a time slot before adding to the cart.",
+    "singleDatePerOrderMessage": "You can only choose one delivery date per order.",
+    "dropdownDefaultOptionLabel": "Please select...",
+    "timeSlotDropdownDefaultOptionLabel": "Please select..."
+  },
+  "isVisible": true,
+  "cutOffTime": "23:59",
+  "pickerType": "CALENDAR",
+  "showOnPage": "PRODUCT",
+  "disabledDates": [],
+  "anchorPosition": "LAST_ELEMENT",
+  "anchorSelector": "#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div.appstle_subscription_wrapper_option",
+  "placementMethod": "MANUAL",
+  "timeSlotsEnabled": false,
+  "availableWeekDays": [
+    "WEDNESDAY",
+    "SATURDAY"
+  ],
+  "singleDatePerOrder": true,
+  "dateDeselectedFirst": false,
+  "mandatoryDateSelect": true,
+  "timeSlotDeselectedFirst": false,
+  "firstAvailableDateInDays": 1,
+  "lastAvailableDateInWeeks": 12
+};
+
+{%- if product -%}
+
+    window.Buunto.datePicker.productCollections = {{ product.collections | map: "id" | json }};
+
+    window.Buunto.datePicker.productTags = {{ product.tags | json }};
+
+{%- endif -%}
+
+{%- if cart -%}
+
+    {% assign cart_product_tags = '' | split: '' %}
+    {% assign cart_product_collections = '' | split: '' %}
+    {% for item in cart.items %}
+
+        {% for tag in item.product.tags %}
+            {% assign cart_product_tags = tag | concat: cart_product_tags %}
+        {% endfor %}
+
+        {% assign collection_ids = item.product.collections | map: 'id' %}
+        {% for id in collection_ids %}
+            {% assign cart_product_collections = id | concat: cart_product_collections %}
+        {% endfor %}
+
+    {% endfor %}
+
+    window.Buunto.datePicker.cartTags = {{ cart_product_tags | uniq | json }};
+
+    window.Buunto.datePicker.cartCollections = {{ cart_product_collections | uniq | json }};
+
+    {% assign selected_date = "" %}
+    {% assign date_tag_label = "Delivery Date" %}
+
+    {% for item in cart.items %}
+
+        {%- if item.properties[date_tag_label] and selected_date == "" -%}
+            {% assign selected_date = item.properties[date_tag_label] %}
+        {%- endif %}
+
+    {% endfor %}
+
+    window.Buunto.datePicker.selectedDate = {{ selected_date | json }};
+
+{%- endif -%}
+
+</script>
