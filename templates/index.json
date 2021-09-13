@@ -69,11 +69,23 @@
           "settings": {
             "text": "Our subscription service means you don’t need to remember to order your bread each week. It will come to you as if by magic."
           }
+        },
+        "989023cb-55ee-4a33-81c0-ecc20f0b9ad0": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Subscriptions",
+            "button_link_1": "shopify:\/\/pages\/subscription",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "162885802692318a35-0",
-        "162885802692318a35-1"
+        "162885802692318a35-1",
+        "989023cb-55ee-4a33-81c0-ecc20f0b9ad0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sean_s_loaf_baguette.jpg",
