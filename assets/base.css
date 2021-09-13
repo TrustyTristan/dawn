@@ -2114,6 +2114,6 @@ details-disclosure > details {
 }
 
 /* ##### CUSTOM ##### */
-.pickup-availability > .pickup-availability-preview > div > p.caption {
+.pickup-availability > .pickup-availability-preview > p.caption {
   display: none;
 }
