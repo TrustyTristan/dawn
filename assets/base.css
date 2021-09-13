@@ -523,7 +523,7 @@ h6:empty {
 }
 
 .link--text {
-  color: rgb(var(--color-foreground));
+  color: rgba(var(--color-foreground), 1);
 }
 
 .link--text:hover {
