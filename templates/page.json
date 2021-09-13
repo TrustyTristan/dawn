@@ -12,7 +12,34 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1631493917aebd9786": {
+      "type": "rich-text",
+      "blocks": {
+        "1631493917aebd9786-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What customers are saying",
+            "heading_size": "h1"
+          }
+        },
+        "1631493917aebd9786-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't just take our word for it..<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631493917aebd9786-0",
+        "1631493917aebd9786-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "16314938678f67ce2b": {
@@ -46,11 +73,11 @@
         "16314938678f67ce2b-2"
       ],
       "settings": {
-        "title": "What Customers Say",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "secondary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -60,6 +87,7 @@
   "order": [
     "1631493719c55be8ab",
     "main",
+    "1631493917aebd9786",
     "16314938678f67ce2b"
   ]
 }
