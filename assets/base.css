@@ -2112,3 +2112,8 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+/* ##### CUSTOM ##### */
+.pickup-availability > .pickup-availability-preview > div > p.caption {
+  display: none;
+}
