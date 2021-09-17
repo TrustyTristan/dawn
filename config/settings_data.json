@@ -20,10 +20,19 @@
               "color_scheme": "accent-2",
               "link": ""
             }
+          },
+          "cd8de4f8-6e34-4761-9993-1c40d56e5af7": {
+            "type": "announcement",
+            "settings": {
+              "heading": "You will need to set up a new account before ordering",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "cd8de4f8-6e34-4761-9993-1c40d56e5af7"
         ],
         "settings": {
         }
