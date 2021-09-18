@@ -37,6 +37,7 @@
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "<b>Subscribe and Save<\/b> <span class='appstle_subscribesavetext'>{{{subscriptionPrice}}}<\/span>",
         "tooltipTitle": "Details",
+        "api_key": "WPbdYEZn57",
         "showTooltipOnClick": "false",
         "tooltipDesctiption": "<strong>Have complete control of your subscriptions<\/strong><br\/><br\/>Skip, reschedule, edit, cancel deliveries anytime matching your needs.\n<br\/><br\/>\n<strong>For One Time Purchase<\/stong><br\/><br\/>Choose delivery date at checkout.",
         "tooltipDescriptionOnPrepaidPlan": "<b>Prepaid Plan Details<\/b><\/br> Total you are charged for {{totalPrice}} ( At every order {{pricePerDelivery}})",
