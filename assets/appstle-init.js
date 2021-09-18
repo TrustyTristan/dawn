@@ -46,7 +46,7 @@
         "orderStatusManageSubscriptionTitle": "Subscription",
         "orderStatusManageSubscriptionDescription": "Continue to your account to view and manage your subscriptions.",
         "orderStatusManageSubscriptionButtonText": "Manage your subscription",
-        "subscriptionOptionSelectedByDefault" : "true",
+        "subscriptionOptionSelectedByDefault" : true,
         "memberOnlySellingPlansJson": {},
         "nonMemberOnlySellingPlansJson": {},
         "widgetEnabled": true,
