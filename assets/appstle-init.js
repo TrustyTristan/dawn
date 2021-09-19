@@ -39,7 +39,7 @@
         "tooltipTitle": "Details",
         "api_key": "WPbdYEZn57",
         "showTooltipOnClick": "false",
-        "tooltipDesctiption": "<strong>Have complete control of your subscriptions<\/strong><br\/><br\/>Skip, reschedule, edit, cancel deliveries anytime matching your needs.\n<br\/><br\/>\n<strong>For One Time Purchase<\/stong><br\/><br\/>Choose delivery date at checkout.",
+        "tooltipDesctiption": "<h4>Have complete control of your subscriptions<\/h4><br\/><br\/>Skip, reschedule, edit, cancel deliveries anytime matching your needs.\n<br\/><br\/>\n<h4>For One Time Purchase<\/h4><br\/><br\/>Choose delivery date at checkout.",
         "tooltipDescriptionOnPrepaidPlan": "<b>Prepaid Plan Details<\/b><\/br> Total you are charged for {{totalPrice}} ( At every order {{pricePerDelivery}})",
         "tooltipDescriptionOnMultipleDiscount": "<b>Discount Details<\/b><\/br> Hello there my discount is {{discountOne}} and then {{discountTwo}}",
         "tooltipDescriptionCustomization": "<strong>Have complete control of your subscriptions<\/strong><br\/>Skip, reschedule, edit, cancel deliveries anytime matching your needs.\n<br\/><br\/>\n<strong>For One Time Purchase<\/strong><br\/>Choose the delivery date at checkout",
