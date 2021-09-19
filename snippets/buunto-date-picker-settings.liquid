@@ -36,15 +36,15 @@ window.Buunto.datePicker.settings = {
   },
   "messages": {
     "soldOut": "sold out",
-    "dateTagLabel": "Delivery Date",
+    "dateTagLabel": "Order Date",
     "timeSlotLabel": "Pick a delivery time:",
     "datePickerLabel": "Select a date:",
-    "dayOfWeekTagLabel": "Delivery Day",
+    "dayOfWeekTagLabel": "Order Day",
     "datePickerInfoText": "",
     "noDateSelectedError": "Please select a delivery date before adding to the cart.",
     "noAvailableDatesError": "There are currently no dates available for this product.",
     "noTimeSlotSelectedError": "Please select a time slot before adding to the cart.",
-    "singleDatePerOrderMessage": "You can only choose one delivery date per order.",
+    "singleDatePerOrderMessage": "You can only choose one date per order.",
     "dropdownDefaultOptionLabel": "Please select...",
     "timeSlotDropdownDefaultOptionLabel": "Please select..."
   },
@@ -99,7 +99,7 @@ window.Buunto.datePicker.settings = {
     window.Buunto.datePicker.cartCollections = {{ cart_product_collections | uniq | json }};
 
     {% assign selected_date = "" %}
-    {% assign date_tag_label = "Delivery Date" %}
+    {% assign date_tag_label = "Order Date" %}
 
     {% for item in cart.items %}
 
