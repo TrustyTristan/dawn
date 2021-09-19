@@ -99,11 +99,11 @@
 
             "appstle_tooltip": {
                 "color": "",
-                "background-color": "#fd7412",
+                "background-color": "#ff9412",
             },
 
             "appstle_tooltip_border_top_color": {
-                "border-top-color": "#fd7412",
+                "border-top-color": "#ff9412",
             },
 
             "appstle_subscription_final_price": {
