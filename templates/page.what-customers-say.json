@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "1631493719c55be8ab": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/serving-coffee-shop-customer.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1631493917aebd9786": {
+      "type": "rich-text",
+      "blocks": {
+        "1631493917aebd9786-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What customers are saying",
+            "heading_size": "h1"
+          }
+        },
+        "1631493917aebd9786-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't just take our word for it..<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631493917aebd9786-0",
+        "1631493917aebd9786-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16314938678f67ce2b": {
+      "type": "multicolumn",
+      "blocks": {
+        "16314938678f67ce2b-0": {
+          "type": "column",
+          "settings": {
+            "title": "Michael C",
+            "text": "<p>“Sean’s Loaf delivers better bread and croissants than any other baker in North London. Every week we get our delivery, and we’ve always eaten the croissants and all five loaves before the next one comes. We’d order more, but we’d eat those too!”<\/p>"
+          }
+        },
+        "16314938678f67ce2b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Sara C",
+            "text": "<p>“Wednesday’s are officially my favourite day of the week thanks to Sean’s Loaf.<br\/>His bread is the best - chewy sourdough, buttery croissants & chocolate twists - all make my mid-week that much sweeter.<\/p><p>What started as a lockdown treat soon became a subscription - I can’t recommend Sean’s loaf enough.\"<\/p>"
+          }
+        },
+        "16314938678f67ce2b-2": {
+          "type": "column",
+          "settings": {
+            "title": "Benoit",
+            "text": "<p>\"We’ve discovered Sean’s wonderful loaves during the first lockdown and never looked back since.<\/p><p>To make things even better (or harder to resist to) Sean offers also some top quality pastries which would transform your week end breakfast into a feast.\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16314938678f67ce2b-0",
+        "16314938678f67ce2b-1",
+        "16314938678f67ce2b-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "1631493719c55be8ab",
+    "main",
+    "1631493917aebd9786",
+    "16314938678f67ce2b"
+  ]
+}
