@@ -2112,3 +2112,11 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+  
+
+.buunto-date-picker {
+  max-width: 350px;
+}
+.buunto-field {
+  padding-bottom: 0px;
+}
