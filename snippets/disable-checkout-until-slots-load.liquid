@@ -1,6 +1,6 @@
 <script>
   
-$('div.buunto-text-input-date-picker.buunto-field > div.buunto-text-input-holder > input[type=hidden]').on('input', function() {
+$('input[type=hidden]').on('input', function() {
     if (this.value.length > 0) $('.cart__checkout-button').show();
 });
 
