@@ -2131,3 +2131,8 @@ details-disclosure > details {
 .buunto-text-input-date-picker .buunto-calendar-icon {
   margin-top: -12px!important;
 }
+input.buunto-text-input {
+    background-color: #ffffff;
+    border-color: #FD7412!important;
+    border-width: 2px!important;
+}
