@@ -2115,7 +2115,7 @@ details-disclosure > details {
   
 
 .buunto-date-picker {
-  max-width: 350px;
+  max-width: 350px!important;
 }
 .buunto-field {
   padding-bottom: 0px;
