@@ -1,5 +1,5 @@
 (function (window, k) {
-    if (!window.AppstleIncluded) {
+    if (!window.AppstleIncluded && (!urlIsProductPage() || 'V1' === 'V1')) {
       window.AppstleIncluded = true;
       appstleLoadScript = function (src, callback) {
         var script = document.createElement("script");
@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1631004120");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1632811555");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -62,7 +62,7 @@
         "manageSubscriptionBtnFormat" : "<a href='apps\/subscriptions' class='appstle_manageSubBtn' ><button class='btn' style='padding: 2px 20px'>Manage Subscription<\/button><a><br><br>",
         "manageSubscriptionUrl" : "apps\/subscriptions",
         "appstlePlanId": 5,
-        "showCheckoutSubscriptionBtn": "true",
+        "showCheckoutSubscriptionBtn": true,
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
@@ -118,11 +118,17 @@
             "customCSS": "#appstle_subscription_widget0{\n\tmax-width:500px\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > label {\n\tmargin-right: auto;\n\tmargin-bottom: 17px;\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > span {\n    margin-top: 3em;\n    margin-left: 28px;\n    position: absolute;\n}\n",
             "customerPortalCss": "",
             "priceSelector": "span.price-item.price-item--regular",
+            "landingPagePriceSelector": "span.price",
             "badgeTop": "",
             "pricePlacement": "BEFORE",
         }
       };
 
+    }
+
+    function urlIsProductPage() {
+    // return null != decodeURIComponent(window.location.pathname).match(/\/products\/(([a-zA-Z0-9]|[\-\.\_\~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[\ud83c\ud83d\ud83e][\ud000-\udfff]){1,})\/?/)
+    return decodeURIComponent(window.location.pathname).includes('/products/');
     }
   }
 )(window);
