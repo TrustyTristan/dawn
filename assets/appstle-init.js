@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1633066062");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1634131829");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -47,6 +47,7 @@
         "orderStatusManageSubscriptionDescription": "Continue to your account to view and manage your subscriptions.",
         "orderStatusManageSubscriptionButtonText": "Manage your subscription",
         "subscriptionOptionSelectedByDefault" : true,
+        "totalPricePerDeliveryText" : "{{prepaidPerDeliveryPrice}}\/delivery",
         "memberOnlySellingPlansJson": {},
         "nonMemberOnlySellingPlansJson": {},
         "widgetEnabled": true,
