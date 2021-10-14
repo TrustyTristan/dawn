@@ -29,11 +29,20 @@
               "color_scheme": "accent-1",
               "link": ""
             }
+          },
+          "83be5393-35c8-4d4b-8fc9-ca17ff9182b0": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Saturday the 16th is now sold out!",
+              "color_scheme": "inverse",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "announcement-bar-0",
-          "cd8de4f8-6e34-4761-9993-1c40d56e5af7"
+          "cd8de4f8-6e34-4761-9993-1c40d56e5af7",
+          "83be5393-35c8-4d4b-8fc9-ca17ff9182b0"
         ],
         "settings": {
         }
