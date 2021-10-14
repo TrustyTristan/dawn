@@ -50,12 +50,11 @@ window.Buunto.datePicker.settings = {
   },
   "isVisible": true,
   "cutOffTime": "20:00",
+  "filterType": "COLLECTIONS",
   "pickerType": "TEXT_INPUT",
   "showOnPage": "CART",
   "disabledDates": [
-    "2021-10-02",
-    "2021-10-06",
-    "2021-10-09"
+    "2021-10-16"
   ],
   "anchorPosition": "BEFORE",
   "anchorSelector": ".cart__footer .cart__ctas",
@@ -65,19 +64,18 @@ window.Buunto.datePicker.settings = {
     "WEDNESDAY",
     "SATURDAY"
   ],
-  "singleDatePerOrder": true,
-  "dateDeselectedFirst": false,
-  "mandatoryDateSelect": true,
-  "timeSlotDeselectedFirst": false,
-  "firstAvailableDateInDays": 2,
-  "lastAvailableDateInWeeks": 12,
-  "filterType": "COLLECTIONS",
   "filterCollections": [
     {
       "id": 262252167212,
       "title": "Wednesday & Saturday"
     }
-  ]
+  ],
+  "singleDatePerOrder": true,
+  "dateDeselectedFirst": false,
+  "mandatoryDateSelect": true,
+  "timeSlotDeselectedFirst": false,
+  "firstAvailableDateInDays": 2,
+  "lastAvailableDateInWeeks": 12
 };
 
 {%- if product -%}
@@ -110,12 +108,17 @@ window.Buunto.datePicker.settings = {
     window.Buunto.datePicker.cartCollections = {{ cart_product_collections | uniq | json }};
 
     {% assign selected_date = "" %}
-    {% assign date_tag_label = "Order Date" %}
+    {% assign delivery_date_tag_label = "Order Date" %}
+    {% assign pickup_date_tag_label = "Pickup Date" %}
 
     {% for item in cart.items %}
 
-        {%- if item.properties[date_tag_label] and selected_date == "" -%}
-            {% assign selected_date = item.properties[date_tag_label] %}
+        {%- if item.properties[delivery_date_tag_label] and selected_date == "" -%}
+            {% assign selected_date = item.properties[delivery_date_tag_label] %}
+        {%- endif %}
+
+        {%- if item.properties[pickup_date_tag_label] and selected_date == "" -%}
+            {% assign selected_date = item.properties[pickup_date_tag_label] %}
         {%- endif %}
 
     {% endfor %}
