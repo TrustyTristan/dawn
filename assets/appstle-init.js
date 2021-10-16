@@ -64,7 +64,7 @@
         "manageSubscriptionUrl" : "apps\/subscriptions",
         "appstlePlanId": 5,
         "showCheckoutSubscriptionBtn": true,
-        "disableLoadingJquery": false,
+        "disableLoadingJquery": true,
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
