@@ -13,36 +13,27 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "heading": "THE BAKERY WILL BE CLOSED UNTIL THE 11TH OF OCTOBER, SORRY FOR ANY INCONVENIENCE",
-              "color_scheme": "accent-2",
-              "link": ""
-            }
-          },
           "cd8de4f8-6e34-4761-9993-1c40d56e5af7": {
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "heading": "You will need to set up a new account when you order",
+              "heading": "",
               "color_scheme": "accent-1",
               "link": ""
             }
           },
-          "83be5393-35c8-4d4b-8fc9-ca17ff9182b0": {
+          "d4ee841d-2ba9-4e61-acc1-5833da0be979": {
             "type": "announcement",
             "settings": {
-              "heading": "Saturday the 16th is now sold out!",
-              "color_scheme": "inverse",
+              "heading": "PLEASE OPEN AN ACCOUNT TO MAKE SUBSCRIPTIONS EASIER",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0",
           "cd8de4f8-6e34-4761-9993-1c40d56e5af7",
-          "83be5393-35c8-4d4b-8fc9-ca17ff9182b0"
+          "d4ee841d-2ba9-4e61-acc1-5833da0be979"
         ],
         "settings": {
         }
