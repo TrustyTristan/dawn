@@ -188,7 +188,7 @@
       "remove_title": "Remove {{ title }}",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
-      "note": "NB: Please make sure you have selected a delivery date before you checkout",
+      "note": "Order Special Instructions",
       "checkout": "Check out",
       "empty": "Your cart is empty",
       "cart_error": "There was an error while updating your cart. Please try again.",
