@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1636458754");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1637192257");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -55,6 +55,7 @@
         "sortByDefaultSequence": false,
         "showSubOptionBeforeOneTime": false,
         "showStaticTooltip": true,
+        "showAppstleLink": false,
         "sellingPlanTitleText" : "{{sellingPlanName}}",
         "oneTimePriceText" : "{{price}}",
         "selectedPayAsYouGoSellingPlanPriceText" : "{{price}}",
