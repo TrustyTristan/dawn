@@ -53,9 +53,13 @@ window.Buunto.datePicker.settings = {
   "filterType": "COLLECTIONS",
   "pickerType": "TEXT_INPUT",
   "showOnPage": "CART",
+  "oneOffDates": [
+    "2021-12-24"
+  ],
   "disabledDates": [
     "2021-12-25",
-    "2021-12-29"
+    "2021-12-29",
+    "2022-01-01"
   ],
   "anchorPosition": "BEFORE",
   "anchorSelector": ".cart__footer .cart__ctas",
@@ -76,10 +80,7 @@ window.Buunto.datePicker.settings = {
   "mandatoryDateSelect": true,
   "timeSlotDeselectedFirst": false,
   "firstAvailableDateInDays": 2,
-  "lastAvailableDateInWeeks": 12,
-  "oneOffDates": [
-    "2021-12-24"
-  ]
+  "lastAvailableDateInWeeks": 12
 };
 
 {%- if product -%}
