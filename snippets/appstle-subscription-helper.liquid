@@ -13,7 +13,15 @@ This snippet is auto generated and will be overwritten.
             "subscriptionLinkSelector": "div.customer.account",
             "atcButtonPlacement": "BEFORE",
             "subscriptionLinkPlacement": "BEFORE",
+            "cartRowSelector": "",
+            "cartLineItemSelector": "",
+            "cartLineItemPerQuantityPriceSelector": "",
+            "cartLineItemTotalPriceSelector": "",
+            "cartLineItemSellingPlanNameSelector": "",
+            "cartSubTotalSelector" : "",
+            "cartLineItemPriceSelector": "",
         },
+        "enableCartWidgetFeature": false,
         "useUrlWithCustomerId": false,
         "moneyFormat": "{% raw %}\u00A3{{amount}}{% endraw %}",
         "oneTimePurchaseText": "One Time Purchase",
@@ -118,6 +126,11 @@ This snippet is auto generated and will be overwritten.
     {% if customer %}
     _RSConfig.customerId = {{ customer.id }};
     _RSConfig.customer_tags = {{ customer.tags | json }};
+    {% endif %}
+
+    {% if shop %}
+    _RSConfig.shopMoneyFormat = '{{ shop.money_format | escape }}';
+    _RSConfig.shopMoneyFormatWithCurrencyFormat = '{{ shop.money_with_currency_format | escape }}';
     {% endif %}
 
 </script>

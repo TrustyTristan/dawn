@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1641892932");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1643336802");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -24,7 +24,15 @@
             "subscriptionLinkSelector": "div.customer.account",
             "atcButtonPlacement": "BEFORE",
             "subscriptionLinkPlacement": "BEFORE",
+            "cartRowSelector": "",
+            "cartLineItemSelector": "",
+            "cartLineItemPerQuantityPriceSelector": "",
+            "cartLineItemTotalPriceSelector": "",
+            "cartLineItemSellingPlanNameSelector": "",
+            "cartSubTotalSelector" : "",
+            "cartLineItemPriceSelector": "",
         },
+        "enableCartWidgetFeature": false,
         "useUrlWithCustomerId": false,
         "atcButtonSelector": "div.product-form__buttons",
         "moneyFormat": "{% raw %}\u00A3{{amount}}{% endraw %}",
@@ -124,7 +132,7 @@
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
             "badgeTop": "",
-            "pricePlacement": "BEFORE",
+            "pricePlacement": "BEFORE"
         }
       };
 
