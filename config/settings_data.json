@@ -26,8 +26,17 @@
           },
           "d4ee841d-2ba9-4e61-acc1-5833da0be979": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "PLEASE OPEN AN ACCOUNT TO MAKE SUBSCRIPTIONS EASIER",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          },
+          "cbcff005-bffa-41a8-a98f-c2d3d11eb5d7": {
+            "type": "announcement",
+            "settings": {
+              "heading": "WE DELIVER TO  NW2, NW6, NW3, NW10",
               "color_scheme": "accent-2",
               "link": ""
             }
@@ -35,7 +44,8 @@
         },
         "block_order": [
           "cd8de4f8-6e34-4761-9993-1c40d56e5af7",
-          "d4ee841d-2ba9-4e61-acc1-5833da0be979"
+          "d4ee841d-2ba9-4e61-acc1-5833da0be979",
+          "cbcff005-bffa-41a8-a98f-c2d3d11eb5d7"
         ],
         "settings": {
         }
