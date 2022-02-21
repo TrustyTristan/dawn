@@ -53,13 +53,12 @@ window.Buunto.datePicker.settings = {
   "filterType": "COLLECTIONS",
   "pickerType": "TEXT_INPUT",
   "showOnPage": "CART",
-  "oneOffDates": [
-    "2021-12-24"
-  ],
+  "oneOffDates": [],
   "disabledDates": [
     "2021-12-25",
     "2021-12-29",
-    "2022-01-01"
+    "2022-01-01",
+    "2022-02-23"
   ],
   "anchorPosition": "BEFORE",
   "anchorSelector": ".cart__footer .cart__ctas",
@@ -88,6 +87,10 @@ window.Buunto.datePicker.settings = {
     window.Buunto.datePicker.productCollections = {{ product.collections | map: "id" | json }};
 
     window.Buunto.datePicker.productTags = {{ product.tags | json }};
+
+    window.Buunto.datePicker.productOptions = {{ product.options | json }};
+
+    window.Buunto.datePicker.productVariants = {{ product.variants | json }};
 
 {%- endif -%}
 
