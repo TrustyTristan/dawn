@@ -15,7 +15,7 @@
         };
         document.getElementsByTagName("head")[0].appendChild(script)
       };
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1644521113");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1646328794");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -45,7 +45,7 @@
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "<b>Subscribe and Save<\/b> <span class='appstle_subscribesavetext'>{{{subscriptionPrice}}}<\/span>",
         "tooltipTitle": "Details",
-        "api_key": "WPbdYEZn57",
+        "api_key": "",
         "showTooltipOnClick": "false",
         "tooltipDesctiption": "<h4>Have complete control of your subscriptions<\/h4>\nSkip, reschedule, edit, cancel deliveries anytime matching your needs.\n<h4>For One Time Purchase<\/h4>\nChoose delivery date at checkout.",
         "tooltipDescriptionOnPrepaidPlan": "<b>Prepaid Plan Details<\/b><\/br> Total you are charged for {{totalPrice}} ( At every order {{pricePerDelivery}})",
@@ -77,6 +77,9 @@
         "widgetEnabledOnSoldVariant": "false",
         "switchRadioButtonWidget": false,
         "appstlePlanName": "STARTER",
+        "formMappingAttributeName": "",
+        "formMappingAttributeSelector": "",
+        "quickViewModalPollingSelector": "",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
