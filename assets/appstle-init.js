@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1646906573");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1647929813");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -35,7 +35,7 @@
             "cartLineItemPriceSelector": "",
         },
         "enableCartWidgetFeature": "false",
-        "useUrlWithCustomerId": false,
+        "useUrlWithCustomerId": "false",
         "atcButtonSelector": "div.product-form__buttons",
         "moneyFormat": "{% raw %}\u00A3{{amount}}{% endraw %}",
         "oneTimePurchaseText": "One Time Purchase",
