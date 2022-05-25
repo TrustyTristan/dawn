@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1647929813");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1653477996");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -78,10 +78,16 @@
         "disableLoadingJquery": false,
         "widgetEnabledOnSoldVariant": "false",
         "switchRadioButtonWidget": false,
-        "appstlePlanName": "STARTER",
+        "appstlePlanName": "STARTER PAYG",
         "formMappingAttributeName": "",
         "formMappingAttributeSelector": "",
         "quickViewModalPollingSelector": "",
+        "scriptLoadDelay": "0",
+        "formatMoneyOverride": "false",
+        "appstle_app_proxy_path_prefix": "apps\/subscriptions",
+        "updatePriceOnQuantityChange": "",
+        "widgetParentSelector": "",
+        "quantitySelector": "",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
