@@ -141,7 +141,7 @@
                 "background": "transparent",
             },
             "customCSS": "#appstle_subscription_widget0{\n\tmax-width:500px\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > label {\n\tmargin-right: auto;\n\tmargin-bottom: 17px;\n}\n\n\n\n.btn{\n    background-color: black !important;\n    color: white !important;\n      padding: 12px 30px  !important; \n}\n",
-            "customerPortalCss": "#headlessui-tabs-panel-4 > div > div.lg\\:as-col-span-8 > div.as-bg-white.as-shadow.as-overflow-hidden.sm\\:as-rounded-lg.as-card.as-product-details > div > div.as-relative.as-overflow-x-auto.as-product-details-table-wrapper > table > tbody > tr:nth-child(1) > th > div > div.as-col-span-10 > p.as-mt-4 > span.as-cursor-pointer.as-font-medium.as-text-yellow-600.dark\\:as-text-yellow-500.hover\\:as-underline.as-ml-2.as-cta.as-view-more-cta {\ndisplay: none!important;\n}",
+            "customerPortalCss": ".as-underline.as-ml-2.as-cta.as-view-more-cta {\ndisplay: none!important;\n}",
             "priceSelector": "",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
