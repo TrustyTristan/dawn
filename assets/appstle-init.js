@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1653477996");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1654692281");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -141,7 +141,7 @@
                 "background": "transparent",
             },
             "customCSS": "#appstle_subscription_widget0{\n\tmax-width:500px\n}\n#appstle_subscription_widget0 > div.appstle_subscription_wrapper > div:nth-child(1) > label {\n\tmargin-right: auto;\n\tmargin-bottom: 17px;\n}\n\n\n\n.btn{\n    background-color: black !important;\n    color: white !important;\n      padding: 12px 30px  !important; \n}\n",
-            "customerPortalCss": "",
+            "customerPortalCss": ".as-cursor-pointer.as-font-medium.as-text-yellow-600.dark:as-text-yellow-500.hover:as-underline.as-ml-2 as-cta.as-view-more-cta {\ndisplay: none!important;\n}",
             "priceSelector": "",
             "landingPagePriceSelector": "",
             "quickViewClickSelector": "",
