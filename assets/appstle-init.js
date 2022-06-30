@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1654692281");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1656575566");
 
       window.RS = Window.RS || {};
       RS.Config = {
@@ -79,6 +79,7 @@
         "widgetEnabledOnSoldVariant": "false",
         "switchRadioButtonWidget": false,
         "appstlePlanName": "STARTER PAYG",
+        "appstlePlanFeatures": {"analytics":true,"enableSubscriptionManagement":true,"enableDunningManagement":true,"enableCustomerPortalSettings":true,"enableShippingProfiles":true,"enableProductSwapAutomation":true,"enableAdvancedSellingPlans":true,"enableSummaryReports":true,"enableCustomEmailDomain":true,"enableWidgetPlacement":true,"enableIntegrations":true,"enableSmsAlert":false,"enableCustomEmailHtml":false,"enableCancellationManagement":true,"enableExternalApi":false,"enableCartWidget":false,"enableAutoSync":false},
         "formMappingAttributeName": "",
         "formMappingAttributeSelector": "",
         "quickViewModalPollingSelector": "",
@@ -88,6 +89,8 @@
         "updatePriceOnQuantityChange": "",
         "widgetParentSelector": "",
         "quantitySelector": "",
+        "enableAddJSInterceptor": "false",
+        "reBuyEnabled": "false",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
