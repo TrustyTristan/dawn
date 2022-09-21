@@ -40,12 +40,21 @@
               "color_scheme": "accent-2",
               "link": ""
             }
+          },
+          "b60141b0-a46c-4148-af9a-fc1d5bdd5905": {
+            "type": "announcement",
+            "settings": {
+              "heading": "We have moved to Clitterhouse Farm , Claremont Road NW2 1AP",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "cd8de4f8-6e34-4761-9993-1c40d56e5af7",
           "d4ee841d-2ba9-4e61-acc1-5833da0be979",
-          "cbcff005-bffa-41a8-a98f-c2d3d11eb5d7"
+          "cbcff005-bffa-41a8-a98f-c2d3d11eb5d7",
+          "b60141b0-a46c-4148-af9a-fc1d5bdd5905"
         ],
         "settings": {
         }
