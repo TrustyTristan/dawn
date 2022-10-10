@@ -17,7 +17,7 @@
       };
 
 
-      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1661608317");
+      appstleLoadScript("https://cdn.shopify.com/s/files/1/0363/3892/5612/t/5/assets/appstle-subscription.js?v=1665406729");
 
 
       window.RS = Window.RS || {};
@@ -48,7 +48,6 @@
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
         "subscriptionPriceDisplayText": "<b>Subscribe and Save<\/b> <span class='appstle_subscribesavetext'>{{{subscriptionPrice}}}<\/span>",
         "tooltipTitle": "Details",
-        "api_key": "",
         "showTooltipOnClick": "false",
         "tooltipDesctiption": "<h4>Have complete control of your subscriptions<\/h4>\nSkip, reschedule, edit, cancel deliveries anytime matching your needs.\n<h4>For One Time Purchase<\/h4>\nChoose delivery date at checkout.",
         "tooltipDescriptionOnPrepaidPlan": "<b>Prepaid Plan Details<\/b><\/br> Total you are charged for {{totalPrice}} ( At every order {{pricePerDelivery}})",
@@ -96,7 +95,7 @@
         "loyaltyPerkDescriptionText": "",
         "widgetTemplateHtml": ``,
         "bundle": {},
-        "labels": "{\"appstle.subscription.wg.oneTimePurchaseTextV2\":\"One Time Purchase\"}",
+        "labels": "{\"appstle.subscription.wg.yearsFrequencyTextV2\":\"Years\",\"appstle.subscription.wg.weekFrequencyTextV2\":\"Week\",\"appstle.subscription.wg.oneTimePurchaseTextV2\":\"One Time Purchase\",\"appstle.subscription.wg.unsubscribeFrequencyTextV2\":\"unsubscribe\",\"appstle.subscription.wg.weeksFrequencyTextV2\":\"Weeks\",\"appstle.subscription.wg.oneTimeFrequencyTextV2\":\"One Time\",\"appstle.subscription.wg.dayFrequencyTextV2\":\"day\",\"appstle.subscription.wg.monthsFrequencyTextV2\":\"Months\",\"appstle.subscription.wg.subscribeAndSaveInitalV2\":\"Subscribe & save\",\"appstle.subscription.wg.deliveryEveryFrequencyTextV2\":\"Delivery Every\",\"appstle.subscription.wg.offFrequencyTextV2\":\"Off\",\"appstle.subscription.wg.daysFrequencyTextV2\":\"Days\",\"appstle.subscription.wg.yearFrequencyTextV2\":\"Year\",\"appstle.subscription.wg.subscribeAndSaveSuccessV2\":\"Subscribe success\",\"appstle.subscription.wg.monthFrequencyTextV2\":\"Month\",\"appstle.subscription.wg.selectDeliverOptionV2\":\"select deliver option\"}",
         "css": {
             "appstle_subscription_widget": {
                 "margin-top": "" ,
