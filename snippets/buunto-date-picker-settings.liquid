@@ -56,7 +56,9 @@ window.Buunto.datePicker.settings = {
   "timezoneId": "Europe/London",
   "oneOffDates": [],
   "disabledDates": [
-    "2022-08-17"
+    "2022-12-28",
+    "2022-12-31",
+    "2023-01-04"
   ],
   "anchorPosition": "BEFORE",
   "anchorSelector": ".cart__footer .cart__ctas",
@@ -77,7 +79,8 @@ window.Buunto.datePicker.settings = {
   "mandatoryDateSelect": true,
   "timeSlotDeselectedFirst": false,
   "firstAvailableDateInDays": 2,
-  "lastAvailableDateInWeeks": 12
+  "lastAvailableDateInWeeks": 12,
+  "currency": "GBP"
 };
 
 {%- if product -%}
@@ -115,11 +118,21 @@ window.Buunto.datePicker.settings = {
 
     window.Buunto.datePicker.cartItemCount = {{ cart.items.size }};
 
+    {% assign selected_method = "" %}
     {% assign selected_date = "" %}
+    {% assign selected_time_slot = "" %}
+
+    {% assign method_tag_label = "Method" %}
     {% assign delivery_date_tag_label = "Order Date" %}
     {% assign pickup_date_tag_label = "Pickup Date" %}
+    {% assign delivery_time_slot_tag_label = "Delivery Time" %}
+    {% assign pickup_time_slot_tag_label = "Pickup Time" %}
 
     {% for item in cart.items %}
+
+        {%- if item.properties[method_tag_label] and selected_method == "" -%}
+            {% assign selected_method = item.properties[method_tag_label] %}
+        {%- endif %}
 
         {%- if item.properties[delivery_date_tag_label] and selected_date == "" -%}
             {% assign selected_date = item.properties[delivery_date_tag_label] %}
@@ -129,9 +142,19 @@ window.Buunto.datePicker.settings = {
             {% assign selected_date = item.properties[pickup_date_tag_label] %}
         {%- endif %}
 
+        {%- if item.properties[delivery_time_slot_tag_label] and selected_time_slot == "" -%}
+            {% assign selected_time_slot = item.properties[delivery_time_slot_tag_label] %}
+        {%- endif %}
+
+        {%- if item.properties[pickup_time_slot_tag_label] and selected_time_slot == "" -%}
+            {% assign selected_time_slot = item.properties[pickup_time_slot_tag_label] %}
+        {%- endif %}
+
     {% endfor %}
 
+    window.Buunto.datePicker.selectedMethod = {{ selected_method | json }};
     window.Buunto.datePicker.selectedDate = {{ selected_date | json }};
+    window.Buunto.datePicker.selectedTimeSlot = {{ selected_time_slot | json }};
 
 {%- endif -%}
 
