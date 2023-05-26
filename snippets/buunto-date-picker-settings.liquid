@@ -10,85 +10,6 @@ window.Buunto = window.Buunto || {};
 
 window.Buunto.datePicker = window.Buunto.datePicker || {};
 
-window.Buunto.datePicker.settings = {
-  "locale": "en-gb",
-  "styles": {
-    "arrowIconColor": "#000000",
-    "errorFontColor": "#8b0000",
-    "headerFontColor": "#333333",
-    "errorBorderColor": "#bc6363",
-    "calendarBoxShadow": "0 0 5px rgba(0,0,0,0.15)",
-    "dropdownTextColor": "#333333",
-    "dropdownBorderColor": "#cccccc",
-    "dropdownBorderWidth": "1px",
-    "headerDaysFontColor": "#333333",
-    "calendarBorderRadius": "10px",
-    "dayHoveringFontColor": "#333333",
-    "daySelectedFontColor": "#ffffff",
-    "headerDaysFontWeight": "bold",
-    "dayAvailableFontColor": "#333333",
-    "previewBackgroundColor": "#ffffff",
-    "calendarBackgroundColor": "#ffffff",
-    "dayUnavailableFontColor": "#aaaaaa",
-    "dropdownBackgroundColor": "#ffffff",
-    "dayHoveringBackgroundColor": "#eeeeee",
-    "daySelectedBackgroundColor": "#fd7412"
-  },
-  "currency": "GBP",
-  "messages": {
-    "soldOut": "sold out",
-    "dateTagLabel": "Order Date",
-    "timeSlotLabel": "Pick a delivery time:",
-    "datePickerLabel": "Select a date for your one-time purchase",
-    "dayOfWeekTagLabel": "Order Day",
-    "datePickerInfoText": "You only need to select a date for one time purchases. Orders need to be made 48 hours in advance.",
-    "noDateSelectedError": "Please select a delivery date before adding to the cart.",
-    "noAvailableDatesError": "There are currently no dates available for this product.",
-    "noTimeSlotSelectedError": "Please select a time slot before adding to the cart.",
-    "singleDatePerOrderMessage": "You can only choose one date per order.",
-    "dropdownDefaultOptionLabel": "Please select...",
-    "timeSlotDropdownDefaultOptionLabel": "Please select..."
-  },
-  "isVisible": true,
-  "cutOffTime": "20:00",
-  "filterType": "COLLECTIONS",
-  "pickerType": "TEXT_INPUT",
-  "showOnPage": "CART",
-  "timezoneId": "Europe/London",
-  "oneOffDates": [],
-  "disabledDates": [
-    "2023-05-11",
-    "2023-05-13",
-    "2023-05-18",
-    "2023-05-20",
-    "2023-05-25",
-    "2023-05-27",
-    "2023-06-01",
-    "2023-06-03"
-  ],
-  "anchorPosition": "BEFORE",
-  "anchorSelector": ".cart__footer .cart__ctas",
-  "placementMethod": "MANUAL",
-  "timeSlotsEnabled": false,
-  "availableWeekDays": [
-    "SATURDAY",
-    "THURSDAY"
-  ],
-  "filterCollections": [
-    {
-      "id": 262252167212,
-      "title": "Wednesday & Saturday"
-    }
-  ],
-  "enableMethodChoice": false,
-  "singleDatePerOrder": true,
-  "dateDeselectedFirst": false,
-  "mandatoryDateSelect": true,
-  "timeSlotDeselectedFirst": false,
-  "firstAvailableDateInDays": 2,
-  "lastAvailableDateInWeeks": 12
-};
-
 {%- if product -%}
 
     window.Buunto.datePicker.productCollections = {{ product.collections | map: "id" | json }};
@@ -161,6 +82,7 @@ window.Buunto.datePicker.settings = {
     window.Buunto.datePicker.selectedMethod = {{ selected_method | json }};
     window.Buunto.datePicker.selectedDate = {{ selected_date | json }};
     window.Buunto.datePicker.selectedTimeSlot = {{ selected_time_slot | json }};
+    window.Buunto.datePicker.cart = {{ cart | json }};
 
 {%- endif -%}
 
