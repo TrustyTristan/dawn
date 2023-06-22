@@ -36,7 +36,7 @@
           "cbcff005-bffa-41a8-a98f-c2d3d11eb5d7": {
             "type": "announcement",
             "settings": {
-              "heading": "THE BAKERY WILL BE CLOSED FROM FRIDAY THE 12TH OF MAY UNTIL WEDNESDAY 7TH OF JUNE",
+              "heading": "COME AND VISIT US AT THE QUEENS PARK FARMERS MARKET ON SUNDAYS",
               "color_scheme": "accent-2",
               "link": ""
             }
@@ -137,7 +137,6 @@
           "fetchRequestPartialMatch": "",
           "fetchRequestPartialMatchimeout": 500,
           "buttonClickClassName": "",
-          "buttonClickTimout": 500,
           "additionalJavascriptAndCss": ""
         }
       },
