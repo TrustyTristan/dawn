@@ -15,6 +15,28 @@
       "settings": {
       }
     },
+    "b2616991-0052-4075-8d9e-7ff8410fb4c0": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14144875790380__b2616991-0052-4075-8d9e-7ff8410fb4c0-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cakes"
+          }
+        }
+      },
+      "block_order": [
+        "template--14144875790380__b2616991-0052-4075-8d9e-7ff8410fb4c0-featured_collection-1"
+      ],
+      "settings": {
+        "title": "View cake options",
+        "image_ratio": "portrait",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
+    },
     "16315746120d49cd8d": {
       "type": "contact-form",
       "settings": {
@@ -64,6 +86,7 @@
   "order": [
     "162886447909b921d1",
     "main",
+    "b2616991-0052-4075-8d9e-7ff8410fb4c0",
     "16315746120d49cd8d",
     "1628947288b736e158"
   ]
