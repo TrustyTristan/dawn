@@ -15,42 +15,6 @@
       "settings": {
       }
     },
-    "d467a785-2e97-4f28-b1d3-9591bf21174b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cakes"
-          }
-        },
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-1",
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-2",
-        "template--14144875790380__d467a785-2e97-4f28-b1d3-9591bf21174b-featured_collection-3"
-      ],
-      "settings": {
-        "title": "Cake options",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "image_padding": false,
-        "show_view_all": true
-      }
-    },
     "16315746120d49cd8d": {
       "type": "contact-form",
       "settings": {
@@ -100,7 +64,6 @@
   "order": [
     "162886447909b921d1",
     "main",
-    "d467a785-2e97-4f28-b1d3-9591bf21174b",
     "16315746120d49cd8d",
     "1628947288b736e158"
   ]
