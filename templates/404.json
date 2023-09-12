@@ -1,10 +1,47 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "000ea390-faca-4c88-add4-9ce2ac143c78": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Stay up to date with our latest products, special offers and pop up dining events by signing up to our newsletter.<\/p>"
+          }
+        },
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-heading-1",
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-paragraph-1",
+        "template--14144852623404__000ea390-faca-4c88-add4-9ce2ac143c78-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "000ea390-faca-4c88-add4-9ce2ac143c78"
   ]
- }
+}
