@@ -21,7 +21,7 @@
         "16289385196c41fc91-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wednesday.jpg",
+            "image": "shopify:\/\/shop_images\/Thursday.jpg",
             "title": "Wednesday Delivery",
             "text": "<p>Get all of your goodies delivered fresh on Wednesday.<\/p>"
           }
@@ -29,7 +29,7 @@
         "16289385196c41fc91-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/saturday.jpg",
+            "image": "shopify:\/\/shop_images\/Thursday_1.jpg",
             "title": "Saturday Delivery",
             "text": "<p>Get all of your goodies delivered fresh on Saturday.<\/p>"
           }
