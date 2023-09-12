@@ -40,21 +40,6 @@
         "adapt_height_first_image": false
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Products",
-        "collection": "new-products",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": false,
-        "show_vendor": false
-      }
-    },
     "162885802692318a35": {
       "type": "image-banner",
       "blocks": {
@@ -216,7 +201,6 @@
   },
   "order": [
     "image_banner",
-    "featured_products",
     "162885802692318a35",
     "image_text",
     "16288580465af55907",
