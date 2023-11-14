@@ -27,10 +27,9 @@
           },
           "d4ee841d-2ba9-4e61-acc1-5833da0be979": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "heading": "PLEASE OPEN AN ACCOUNT TO MAKE SUBSCRIPTIONS EASIER",
-              "color_scheme": "accent-2",
+              "heading": "WE ARE CLOSED FROM SUNDAY 24TH DECEMBER UNTIL JANUARY THE 10TH FOR A FESTIVE BREAK",
+              "color_scheme": "inverse",
               "link": ""
             }
           },
