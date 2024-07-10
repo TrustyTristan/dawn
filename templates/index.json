@@ -52,34 +52,15 @@
     "162885802692318a35": {
       "type": "image-banner",
       "blocks": {
-        "162885802692318a35-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Orders delivered Thursday and available for collection on Saturday"
-          }
-        },
-        "162885802692318a35-1": {
+        "text_V3Q6eg": {
           "type": "text",
           "settings": {
-            "text": "Our subscription service means you don’t need to remember to order your bread each week. It will come to you as if by magic. We deliver to NW3, NW6, NW2 and NW10!"
-          }
-        },
-        "989023cb-55ee-4a33-81c0-ecc20f0b9ad0": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "learn more",
-            "button_link_1": "shopify:\/\/pages\/subscription",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "AFTER 4 YEARS OF VERY EARLY MORNINGS AND LONG WEEKEND WORK WE HAVE DECIDED TO CLOSE THE BUSINESS AND FOCUS ON OUR FAMILY. WE HAVE LOVED BAKING AND DELIVERING OUR TASTY TREATS BUT ARE OFF TO TO PERSUE OTHER VENTURES. THANK YOU FOR ALL YOUR ORDERS AND SUPPORT AND HELPING TO MAKE SEAN'S LOAF GREAT."
           }
         }
       },
       "block_order": [
-        "162885802692318a35-0",
-        "162885802692318a35-1",
-        "989023cb-55ee-4a33-81c0-ecc20f0b9ad0"
+        "text_V3Q6eg"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sean_s_loaf_baguette.jpg",
