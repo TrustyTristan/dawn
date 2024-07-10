@@ -1,40 +1,17 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "162886447909b921d1": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/jungle_cake.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
-      }
-    },
-    "b2616991-0052-4075-8d9e-7ff8410fb4c0": {
-      "type": "collection-list",
-      "blocks": {
-        "template--14144875790380__b2616991-0052-4075-8d9e-7ff8410fb4c0-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cakes"
-          }
-        }
-      },
-      "block_order": [
-        "template--14144875790380__b2616991-0052-4075-8d9e-7ff8410fb4c0-featured_collection-1"
-      ],
-      "settings": {
-        "title": "View cake options",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "image_padding": true,
-        "show_view_all": true
       }
     },
     "16315746120d49cd8d": {
@@ -42,52 +19,10 @@
       "settings": {
         "heading": "Tell us about your special cake"
       }
-    },
-    "1628947288b736e158": {
-      "type": "collage",
-      "blocks": {
-        "98bbb628-903a-416c-badd-eb84ce0effcb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mermaid.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "5601b403-7aae-467e-a35c-273456b0d66d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sprinkle.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "d74b28a6-3ba5-4111-988c-d734dc7845f6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackforest_5a7acbbc-a943-4571-8457-d357fbd913e5.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "98bbb628-903a-416c-badd-eb84ce0effcb",
-        "5601b403-7aae-467e-a35c-273456b0d66d",
-        "d74b28a6-3ba5-4111-988c-d734dc7845f6"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
-    "162886447909b921d1",
     "main",
-    "b2616991-0052-4075-8d9e-7ff8410fb4c0",
-    "16315746120d49cd8d",
-    "1628947288b736e158"
+    "16315746120d49cd8d"
   ]
 }
