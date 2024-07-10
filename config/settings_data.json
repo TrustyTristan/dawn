@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_accent_1": "#c1ae84",
@@ -28,7 +37,7 @@
           "d4ee841d-2ba9-4e61-acc1-5833da0be979": {
             "type": "announcement",
             "settings": {
-              "heading": "We are no longer delivering on Saturdays, but don't worry collection is available from multiple sites.",
+              "heading": "SEAN'S LOAF WILL CLOSE ON SUNDAY THE 21ST OF JULY!",
               "color_scheme": "inverse",
               "link": ""
             }
